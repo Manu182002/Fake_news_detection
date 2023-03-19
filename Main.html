@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fake News Detection </title>
+    <link rel=" stylesheet"  href="{{ url_for('static', filename='styles/Main.css')}}">
+</head>
+<body>
+    <div class="banner">
+        <div class = "navbar">
+            <img src = "{{ url_for('static', filename='logo.png')}}" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="/abt">About us</a></li>
+                <li><a href="/predict">Detection</a></li>
+                <li><a href="/contact">Contact us </a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>Fake news Detection</h1>
+    </div>
+     <!-- <div>
+         <button type="button"><span>Click Here</span></button>
+     </div>    -->
+    
+</body>
+</html>
